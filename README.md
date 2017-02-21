@@ -4,9 +4,13 @@
 
 `virtualenv --no-site-packages` and pip still finding global packages?
 
--> check if your `.bashrc` contains `PYTHONPATH`
+root cause: PYTHONPATH detected
+
+sol: check if your `.bashrc` contains `PYTHONPATH`
 
 
 virtualenv got import error after upgrading OS version (e.g. ubuntu 12.04 to 14.04)
 
--> remove virtualenv dir and rebuild it.
+root cause: system library changed and not match with the virtualenv one
+
+sol: remove virtualenv dir and rebuild it.
