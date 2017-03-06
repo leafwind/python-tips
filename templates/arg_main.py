@@ -1,4 +1,4 @@
-"""docstring"""
+"""A minimum main function which allows input arguments"""
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 

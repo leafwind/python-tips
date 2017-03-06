@@ -1,4 +1,6 @@
-"""docstring"""
+"""Benchmark time performance on multi-processes environments.
+   Especially for throughput in shared resources like LMDB.
+"""
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
