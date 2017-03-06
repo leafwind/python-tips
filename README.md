@@ -34,4 +34,6 @@ cd [project dir]; rm __init__.py
 
 ### nocapture feature
 
-`nosetests --nocapture test.py`
+```
+nosetests --nocapture test.py
+```
